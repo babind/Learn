@@ -60,6 +60,7 @@ class CategoriesController extends \BaseController {
 				return Redirect::back()->withErrors($validator)->withInput();
 
 			}
+			Category::update($data);
 			return Redirect::route('categories.index')->with('message','Categories Updated');
 		}
 

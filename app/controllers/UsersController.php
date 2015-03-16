@@ -54,6 +54,7 @@ class UsersController extends \BaseController {
 				return Redirect::back()->withErrors($validator)->withInput();
 
 			}
+			User::update($data);
 			return Redirect::route('users.index')->with('message','users Updated');
 		}
 

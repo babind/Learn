@@ -1,1 +1,0 @@
-/var/www/html/ideasoffshore-projects/IncrementalApi/app/views/users/index.blade.php

@@ -54,6 +54,7 @@ class PostsController extends \BaseController {
 				return Redirect::back()->withErrors($validator)->withInput();
 
 			}
+			Post::update($data);
 			return Redirect::route('posts.index')->with('message','posts Updated');
 		}
 
