@@ -1,0 +1,1 @@
+/var/www/html/ideasoffshore-projects/IncrementalApi/app/views/posts/create.blade.php
